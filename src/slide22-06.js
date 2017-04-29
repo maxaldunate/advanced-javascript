@@ -16,7 +16,7 @@ console.log(obj.c);
 with (obj){
 	a = b +c;
 	d = b -a;
-	d = 3;
+	d = 3; // not creatre a d in object
 }
 
 console.log(obj.d);
