@@ -1,5 +1,3 @@
-//'use strict';
-
 var obj = {
 	a: 2,
 	b: 3,
