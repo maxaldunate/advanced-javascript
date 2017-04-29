@@ -5,4 +5,9 @@ var foo = "foo";
 	console.log(foo);
 })(); //execute immediatly
 
+(function() {
+	var foo = "foo2";
+	console.log(foo);
+}()); //execute immediatly
+
 console.log(foo);
