@@ -60,6 +60,7 @@
                 console.log(rest[i]);
                 if (i < (rest.length - 1)) {
                     // TODO: call the next function
+                    window[rest[i+1]]();
                 }
             };
         })(i);
