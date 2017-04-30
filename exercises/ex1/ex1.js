@@ -15,7 +15,7 @@
     function A() {
         console.log("A");
         B();
-    };
+    }
 
     var C;
 
@@ -45,7 +45,7 @@
     function B() {
         console.log("B");
         C();
-    };
+    }
 
     var F = function () {
         console.log("F");
