@@ -72,9 +72,9 @@
         };
     };
 
-    C = function () {
+    function C() {
         console.log("C");
         D();
-    };
+    }
 
 })();
