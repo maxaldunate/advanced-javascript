@@ -1,77 +1,80 @@
-A();
+(function () {
 
-function C() {
-	console.log("OOPS!");
-}
+    A();
 
-function E(f) {
-	console.log("E");
-	f();
-	var f = F;
-}
+    function C() {
+        console.log("OOPS!");
+    }
 
-var A = function() {
-	console.log("A");
-	B();
-};
+    function E(f) {
+        console.log("E");
+        f();
+        var f = F;
+    }
 
-var C;
+    var A = function () {
+        console.log("A");
+        B();
+    };
 
-function G() {
-	console.log("G");
-	H();
+    var C;
 
-	var H = function() {
-		console.log("H");
-		I();
-	};
-}
+    function G() {
+        console.log("G");
+        H();
 
-var D = d;
+        var H = function () {
+            console.log("H");
+            I();
+        };
+    }
 
-function d() {
-	console.log("D");
-	E();
-}
+    var D = d;
 
-function I() {
-	console.log("I");
-	J();
-	J();
-}
+    function d() {
+        console.log("D");
+        E();
+    }
 
-B = function() {
-	console.log("B");
-	C();
-};
+    function I() {
+        console.log("I");
+        J();
+        J();
+    }
 
-var F = function() {
-	console.log("F");
-	G();
-};
+    B = function () {
+        console.log("B");
+        C();
+    };
 
-var rest = "KLMNOPQRSTUVWXYZ".split("");
-for (var i=0; i<rest.length; i++) {
-	(function(i){
-		// define the current function
-		window[rest[i]] = function() {
-			console.log(rest[i]);
-			if (i < (rest.length-1)) {
-				// TODO: call the next function
-			}
-		};
-	})(i);
-}
+    var F = function () {
+        console.log("F");
+        G();
+    };
 
-var J = function() {
-	J = function() {
-		console.log("J");
-		K();
-	};
-};
+    var rest = "KLMNOPQRSTUVWXYZ".split("");
+    for (var i = 0; i < rest.length; i++) {
+        (function (i) {
+            // define the current function
+            window[rest[i]] = function () {
+                console.log(rest[i]);
+                if (i < (rest.length - 1)) {
+                    // TODO: call the next function
+                }
+            };
+        })(i);
+    }
 
-C = function() {
-	console.log("C");
-	D();
-};
+    var J = function () {
+        J = function () {
+            console.log("J");
+            K();
+        };
+    };
 
+    C = function () {
+        console.log("C");
+        D();
+    };
+
+})();
