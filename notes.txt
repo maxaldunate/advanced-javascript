@@ -1,0 +1,14 @@
+Scope:
+
+4 question for scope (4rules)
+1) Was th fn called with new?
+2) Was th fn called with 'call' or 'apply' specifying an explicit this?
+3) Was th fn called via a containing/owning object(context)?
+4) Default: global object (except strict mode = undefined)
+
+4rules
+new keyword
+explicit(call/apply/bind)
+implicit(obj declaration)
+global(default)
+
