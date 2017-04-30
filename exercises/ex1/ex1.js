@@ -12,7 +12,7 @@
         var f = F;
     }
 
-    var A = function () {
+    function A() {
         console.log("A");
         B();
     };
