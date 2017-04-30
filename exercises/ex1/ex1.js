@@ -23,7 +23,7 @@
         console.log("G");
         H();
 
-        var H = function () {
+        function H() {
             console.log("H");
             I();
         };
