@@ -52,15 +52,15 @@
         G();
     };
 
-    var rest = "KLMNOPQRSTUVWXYZ".split("");
+    var rest = "KLMNOPQRSTUVWXYZ".split(""), obj = {};
     for (var i = 0; i < rest.length; i++) {
         (function (i) {
             // define the current function
-            window[rest[i]] = function () {
+            obj[rest[i]] = function () {
                 console.log(rest[i]);
                 if (i < (rest.length - 1)) {
                     // TODO: call the next function
-                    window[rest[i+1]]();
+                    obj[rest[i+1]]();
                 }
             };
         })(i);
@@ -69,7 +69,7 @@
     var J = function () {
         J = function () {
             console.log("J");
-            K();
+            obj.K();
         };
     };
 
