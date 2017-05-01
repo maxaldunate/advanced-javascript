@@ -14,3 +14,6 @@ global(default)
 
 
 Closures
+When a function remembers its lexical scope, even when the
+Function is executing outside its lexical scope
+
