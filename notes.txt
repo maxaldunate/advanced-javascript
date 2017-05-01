@@ -1,5 +1,7 @@
-Scope:
+Max Notes
 
+02 - Scope
+-------------------------------------------------------------------------------
 4 question for scope (4rules)
 1) Was th fn called with new?
 2) Was th fn called with 'call' or 'apply' specifying an explicit this?
@@ -13,7 +15,14 @@ implicit(obj declaration)
 global(default)
 
 
-Closures
+03 - Closures
+-------------------------------------------------------------------------------
 When a function remembers its lexical scope, even when the
 Function is executing outside its lexical scope
+
+Classic Module Pattern
+1.- there must be an outer enclosing 
+2.- From inside of that function is must return at least one inner function (that have a closure)
+Encapsulation
+
 
