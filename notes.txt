@@ -24,5 +24,10 @@ Classic Module Pattern
 1.- there must be an outer enclosing 
 2.- From inside of that function is must return at least one inner function (that have a closure)
 Encapsulation
+Export
+Not working http://2ality.com/2014/09/es6-modules-final.html
 
+Tradeoff of module pattern
+1.- test inner stuff hard or impossible
+2.- create a new module i am creating a whole new copy of all that internal functions
 
