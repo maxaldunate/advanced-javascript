@@ -14,6 +14,3 @@ function foo() {
 }
 
 foo(); // 0 2
-
-
-MINUTO 3.57

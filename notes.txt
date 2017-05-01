@@ -12,3 +12,5 @@ explicit(call/apply/bind)
 implicit(obj declaration)
 global(default)
 
+
+Closures
