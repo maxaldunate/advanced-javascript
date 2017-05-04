@@ -1,5 +1,6 @@
-# Max's note from Advanced Javascript course on pluralsight
-# by Kyle Simpson
+## Max's note from 
+# Advanced Javascript course on pluralsight
+## by Kyle Simpson
 
 ## Intro
 
