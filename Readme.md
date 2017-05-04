@@ -23,9 +23,11 @@ https://github.com/rwaldron/idiomatic.js/
 ECMAScript Language Specification
 http://www.ecma-international.org/ecma-262/5.1/
 
+Other
 http://wiki.ecmascript.org/doku.php?id=harmony:proposals
 
 ## Scope
+
 * Javascript is a compile language ... bash script is interpreted (ex line 3 & 4)
 * Compiler Terminology
 * Finding declaration of variables declaration
@@ -68,8 +70,11 @@ When a function remembers its lexical scope, even when the Function is executing
 ### Classic Module Pattern
 1) there must be an outer enclosing 
 2) From inside of that function is must return at least one inner function (that have a closure)
+
 Encapsulation
+
 Export
+
 Not working http://2ality.com/2014/09/es6-modules-final.html
 
 ### Tradeoff of module pattern
