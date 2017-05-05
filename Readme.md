@@ -85,8 +85,21 @@ Not working http://2ality.com/2014/09/es6-modules-final.html
 ### New keyword 4 steps
 1) create a brand new object
 2) Linked
-3)
-4)
+3) constructor to bind
+4) return it
 
-Object.create() make the first 2 steps
+Object.create() makes the first 2 steps
 
+### Quiz
+1) What is a constructor?
+Is a fn that is the new keyword in fron of it
+2) What is a [[Prototype]] ?
+Is a linkage from one object to another object. And come from:
+a) From object create
+b) through step 2 linked
+3) How does a [[Prototype]] affect an object ?
+Delegate up to prototype chain to a different object
+4) How do we find out where an object's [[Prototype]] point to ? (3 ways)
+a) dunder proto
+b) object.getPrototyptOf
+c) .constructor.prototype
