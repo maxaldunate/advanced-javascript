@@ -104,7 +104,9 @@ a) dunder proto
 b) object.getPrototyptOf
 c) .constructor.prototype
 
-## OLOO: Objects Linked to Other Objects
+## Object Orientation 
+
+### OLOO: Objects Linked to Other Objects
 
 * JS have not Inheritance, JS have "Behavior Delegation"
 
@@ -128,6 +130,8 @@ Tradeoffs:
 Conclusions:
 * 95% of time Module pattern, no multiple instances needed
 * 5% delegation instead of prototype
+
+## Async Patterns
 
 
 
