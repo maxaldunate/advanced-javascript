@@ -103,3 +103,12 @@ Delegate up to prototype chain to a different object
 a) dunder proto
 b) object.getPrototyptOf
 c) .constructor.prototype
+
+## OLOO: Objects Linked to Other Objects
+
+* JS have not Inheritance, JS have "Behavior Delegation"
+
+
+
+
+
