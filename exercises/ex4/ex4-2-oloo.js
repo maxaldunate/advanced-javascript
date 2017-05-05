@@ -38,10 +38,18 @@ $(document).ready(function(){
 
     var btn1 = Object.create(Button);
     btn1.setup(125, 30, "Hello");
+    btn1.build($body);
 
     var btn2 = Object.create(Button);
     btn2.setup(150, 40, "World");
-
-	btn1.build($body);
 	btn2.build($body);
+
+    /*
+    for (var i = 0; i < 100; i++) {
+        var b = Object.create(Button);
+        b.setup(10, 10, i);
+        b.build($body);
+    };
+    */
+
 });
