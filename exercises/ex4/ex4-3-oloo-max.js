@@ -17,14 +17,14 @@ var Widget = {
 
 var Button = {
     init: function (width, height, label) {
-        this.linked = Object.create(Widget).init(width, height);
+        this.super = Object.create(Widget).init(width, height);
         this.label = label || "Default";
-        this.linked.$elem = $("<button>").text(this.label);
+        this.super.$elem = $("<button>").text(this.label);
         return this;
     },
     render: function ($where) {
-        this.linked.render($where);
-        this.linked.$elem.click(this.onClick.bind(this));
+        this.super.render($where);
+        this.super.$elem.click(this.onClick.bind(this));
         return this;
     },
     onClick: function (evt) {
