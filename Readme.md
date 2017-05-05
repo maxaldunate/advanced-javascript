@@ -108,6 +108,30 @@ c) .constructor.prototype
 
 * JS have not Inheritance, JS have "Behavior Delegation"
 
+See examples on s-08-114 ....js
+
+OLOO (objects linked to other objects) pattern explored (with comparison to the prototype style of the same code) 
+https://gist.github.com/getify/5572383
+
+Playing around with an `Object.make()` helper
+https://gist.github.com/getify/5226305
+
+### Delegation vs. Classes
+
+Delegation is more powerful thanl class because you can implement classes in delegation but you cannot the reverse.
+You can't implement delegation ina class mechanism.
+
+Tradeoffs:
+* shadowing
+* everithing is public
+
+Conclusions:
+* 95% of time Module pattern, no multiple instances needed
+* 5% delegation instead of prototype
+
+
+
+
 
 
 
