@@ -160,6 +160,19 @@ Are important because they invert the 'inversion of control' of the callbacks
 ** Completion event or a continuation event
 
 
+* jQuery style promeses
+
+Asynquence
+
+https://github.com/getify/asynquence
+
+* then: next step
+* gate: many parallel steps
+* waterfall: one step and the next one. like a pipeline
+* seq
+* val
+
+
 
 
 
