@@ -133,7 +133,29 @@ Conclusions:
 
 ## Async Patterns
 
+### Callbacks
 
+* Samples
+** Nested
+** No nested
+* Callback hell
+* Inversion of control
+** Separate callback
+** Error-first style
+** Nested callback tasks
+
+### Generators (yield)
+
+* Iterators like, but return value
+* coroutines
+* generator messages
+* yield tasks
+
+### Promises
+
+* Metaphor: 
+** Fastfood after pay
+** Completion event or a continuation event
 
 
 
