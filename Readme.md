@@ -153,6 +153,8 @@ Conclusions:
 
 ### Promises
 
+Are important because they invert the 'inversion of control' of the callbacks
+
 * Metaphor: 
 ** Fastfood after pay
 ** Completion event or a continuation event
