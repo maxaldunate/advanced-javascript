@@ -1,10 +1,14 @@
-var wait = jQuery.Deferred();
-var p = wait.promise();
+function waitForN(n) {
+    var d = $.Deferred();
+    setTimeout(d.resolve, n);
+    return d.promise();
+}
 
-p.done(function (value) {
-    console.log(value);
-});
-
-setTimeout(function () {
-    wait.resolve(Math.random());
-}, 1000);
+waitForN(1000)
+    .then(function () {
+        console.log("Hello world");
+        return waitForN(2000);
+    })
+    .then(function () {
+        console.log("Finally");
+    });
